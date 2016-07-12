@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('Fonts/Montserrat-Light.woff') format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('Fonts/Montserrat-Bold.woff') format("woff");
+}
+
+body {
+    background-color: #0a8e84;
+    font-family: 'Montserrat-Light', sans-serif;
+    color: #ffffff;
+    width: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+b {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+#topbar {
+    background-color: #ffffff;
+    height: 5em;
+    padding: 1em 15em;
+}
+
+#topbar img {
+    height: 5em;
+    float: left;
+    border-radius: 1em;
+}
+
+nav {
+    margin: 1em 0;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 2em;
+    display: inline;
+}
+
+nav ul li a {
+    color: #6d6e71;
+    text-transform: uppercase;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#main {
+    padding: 0 14em;
+}
+
+h1 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2.5em;
+}
+
+.phone {
+    float: right;
+    margin-top: 5em;
+    height: 30em;
+    margin-bottom: 2em;
+}
+
+#information {
+    float: left;
+    width: 26em;
+    padding: 2em 0;
+}
+
+#description {
+    width: 26em;
+    margin-bottom: 3em;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.button1 {
+    padding: 1em;
+    border: 0.2em solid #ffffff;
+    width: 18em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.button1 a {
+    color: #ffffff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#bottombar {
+    width: 100%;
+    padding: 3em 0;
+    text-align: center;
+    background-color: #ffffff;
+    clear: both;
+}
+
+.clip {
+    margin-bottom: 2em;
+    display: inline-block;
+    width: 12em;
+    padding: 0 4em;
+}
+
+.clip img {
+    width: 15em;
+    text-align: center;
+}
+
+.clip p {
+    text-align: center;
+    color: #6d6e71;
+    width: 15em;
+    padding: 0 0.5em;
+}
+
+.button2 {
+    padding: 1em;
+    border: 0.2em solid #6d6e71;
+    width: 12em;
+    text-align: center;
+    margin: auto;
+}
+
+.button2 a {
+    color: #6d6e71;
+    font-family: 'Montserrat-Bold', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+    #topbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 650px) {
+    #topbar {
+        padding: 0;
+    }
+
+    #topbar img {
+        display: none;
+    }
+
+    #main {
+        padding: 0 5px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #information {
+        width: 15em;
+    }
+
+    #description {
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 1173px) {
+    #topbar img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1107px) {
+    #information {
+        width: 18em;
+    }
+
+    #description {
+        width: 18em;
+    }
+}
+
+@media screen and (max-width: 1082px) {
+    #topbar {
+        padding: 1em 0;
+    }
+
+    #information {
+        width: 15em;
+    }
+
+    #description {
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    nav ul li {
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #information {
+        width: 15em;
+    }
+
+    #description {
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    nav ul li {
+        padding: 0.1em;
+    }
+
+    #information {
+        width: 15em;
+    }
+
+    #description {
+        width: 15em;
+    }
+}
